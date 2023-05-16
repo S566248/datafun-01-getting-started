@@ -1,18 +1,34 @@
-string1 = input("Please enter movie 1's score:")
-string2 = input("Please enter movie 2's score:")
-string3 = input("Please enter movie 3's score:")
+""" Creator: Tyler Stanton
+The purpose of this code is to have the user input 3 movie scores (between 0 and 100) and the code will calculate specif values from these score.
 
-int1 = int(string1)
-int2 = int(string2)
-int3 = int(string3)
+"""
 
-scores = (int1, int2, int3)
+movie1 = input("Please enter movie 1's score:")
+movie2 = input("Please enter movie 2's score:")
+movie3 = input("Please enter movie 3's score:")
 
-lowest_score = min(scores)
-highest_score = max(scores)
-total_of_scores = sum(scores)
-average_of_scores = round(total_of_scores / len(scores))
-product_of_scores = round(int1*int2*int3)
+""" These convert the user given scores into values."""
+int1 = int(movie1)
+int2 = int(movie2)
+int3 = int(movie3)
+
+scores = (int1, int2, int3); """ The combines the scores into a list for calculations."""
+
+lowest_score = min(scores); """ This calculates the lowest score of the user given values."""
+highest_score = max(scores); """ This calculates the highest score of the user given values."""
+total_of_scores = sum(scores); """ This adds the scores together of the user given values."""
+average_of_scores = round(total_of_scores / len(scores)); """ This calculates the average score of the user given values."""
+product_of_scores = round(int1*int2*int3); """ This multiple the scores together of the user given values."""
+
+print('Lowest Score = ', lowest_score)
+print("Highest Score = ", highest_score)
+print("Scores Added Together = ", total_of_scores)
+print("Average of Scores = ", average_of_scores)
+print("Scores Multiplied Together = ", product_of_scores)
+
+"""
+The remaing code logs the code above.
+"""
 
 import logging
 import pathlib
