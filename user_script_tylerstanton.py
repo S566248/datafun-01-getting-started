@@ -6,6 +6,14 @@ The purpose of this code is to have the user input 3 movie scores (between 0 and
 movie1 = input("Please enter movie 1's score:")
 movie2 = input("Please enter movie 2's score:")
 movie3 = input("Please enter movie 3's score:")
+""" Creator: Tyler Stanton
+The purpose of this code is to have the user input 3 movie scores (between 0 and 100) and the code will calculate specif values from these score.
+
+"""
+
+movie1 = input("Please enter movie 1's score:")
+movie2 = input("Please enter movie 2's score:")
+movie3 = input("Please enter movie 3's score:")
 
 """ These convert the user given scores into values."""
 int1 = int(movie1)
@@ -26,6 +34,9 @@ print("Scores Added Together = ", total_of_scores)
 print("Average of Scores = ", average_of_scores)
 print("Scores Multiplied Together = ", product_of_scores)
 
+"""
+The remaing code logs the code above.
+"""
 """
 The remaing code logs the code above.
 """
