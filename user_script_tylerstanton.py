@@ -1,4 +1,8 @@
 """ Creator: Tyler Stanton
+
+44-608, Fundamentals of Data Analytics
+Project 1
+
 The purpose of this code is to have the user input 3 movie scores (between 0 and 100) and the code will calculate specif values from these score.
 
 """
